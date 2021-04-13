@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { Selection } from '@uifabric/utilities';","map":{"version":3,"sources":["utilities/selection/Selection.ts"],"names":[],"mappings":"AAAA,SAA4B,SAA5B,QAA6C,qBAA7C","sourcesContent":["export { ISelectionOptions, Selection } from '@uifabric/utilities';\n"],"sourceRoot":"../src/"},"metadata":{},"sourceType":"module"}

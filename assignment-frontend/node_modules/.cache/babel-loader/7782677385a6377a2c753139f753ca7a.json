@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './components/Label/index';","map":{"version":3,"sources":["Label.ts"],"names":[],"mappings":"AAAA,cAAc,0BAAd","sourcesContent":["export * from './components/Label/index';\n"],"sourceRoot":"../src/"},"metadata":{},"sourceType":"module"}

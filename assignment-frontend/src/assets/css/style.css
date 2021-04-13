@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #faf9f8;
+  /* overflow-y: scroll;
+  overflow-x: auto; */
+  /* overflow: auto; */
+  overflow: hidden;
+  /* overflow-x: hidden; */
+    /* background: #ffffff; */
+  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+/* Microsoft Fabric Box Depth */ 
+.ms-depth-4 {
+  box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+
+.ms-depth-8 {
+  box-shadow: 0 3.2px 7.2px 0 rgba(0,0,0,.132),0 .6px 1.8px 0 rgba(0,0,0,.108);
+}
+
+.ms-Nav-groupContent {
+margin-bottom: 15px !important;
+}
+
+/* react-select css overwirte */
+.Select-control{
+/* width: 200px !important; */
+/* height: 30px !important; */
+border: 1px solid #8a8886 !important;
+border-radius: 0px !important;
+}
+
+.Select.is-disabled > .Select-control {
+background-color: #f3f2f1 !important;
+}
+
+.Select-menu-outer{
+
+border: 1px solid #8a8886 !important;
+z-index: 999999 !important;
+}
+/* End */
+
+
+
+/* vertical center */
+.vcenter {
+display: inline-block;
+vertical-align: middle;
+float: none;
+}
+
+/* Main Content Scroll Enable */
+.content-scroll {
+max-height: 75vh;
+overflow-y: scroll;
+scrollbar-width: thin;
+scrollbar-color:#cccccc7f #ffffff00;
+background: #fff;
+padding: 16px 20px 5px 16px;
+min-height: 100;
+}
+
+.scrollbar-style {
+scrollbar-width: thin;
+scrollbar-color:#cccccc44 #ffffff00;
+
+}
+
+::-webkit-scrollbar {
+width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #ccc;
+}
+
+.align-center{
+text-align: center;
+}
+
+table.scrollable-table tbody {
+display:block;
+max-height:150px;
+overflow:auto;
+}
+
+table.scrollable-table thead,table.scrollable-table tbody tr {
+display:table;
+width:100%;
+table-layout:fixed;
+}
+
+.profile-wrap img{
+width:100%;
+height: 100%;
+object-fit: contain;
+}
+
+
+.defaultChoiceGroup .ms-ChoiceField{
+display: inline-block;
+margin-right:10px;
+}
+
+.roles-tag {
+display: inline-block;
+/* color:rgb(16, 110, 190); */
+border: 1px solid #c2c2c2;
+border-radius: 3px;
+padding: 1px 5px;
+margin-right: 5px;
+}
+.delete-role {
+cursor: pointer;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.Select.is-disabled > .Select-control {
+border: 0 !important;
+}
+
+.hrdb-table-head {
+  background: #fff;
+  color: #0077d4;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.summary-box{
+padding: 8px;
+border: 1px solid #281d1d1f;
+background: #0747a609;
+}
+
+.table-td-icon {
+width: 40px;
+background: #fff;
+}
+
+.left-side-panel-form{
+min-height: 75vh
+}
+
+.modal-container-background {
+background-color:#fff;
+position: fixed;
+top: 0;
+right: 0;
+width: 100%;
+height: 100vh;
+z-index: 9999;
+}
+.modal-body-container {
+background-color: #fff;
+}
+.report-table-container{
+height: 100vh;
+overflow: auto;
+}
+
+
+.font-description {
+color:  #6f6969;
+font-weight: normal;
+}
+
+/* footer styles */
+
+.footer-container {
+padding: 3px 15px 4px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.footer-container p{
+margin: 0;
+font-size: 12px;
+text-align: right;
+font-weight: bold;
+}
+.form-footer-container p{
+font-size: 12px;
+margin: 0;
+text-align: right;
+}
+.form-footer-container p a img, .footer-container p a img {
+height: 15px;
+}
+.form-control{
+  font-size: 14px;
+}
+.form-group{
+  font-size: 14px;
+}
+.option { 
+  /* Whatever color  you want */
+  background-color: whitesmoke;
+}
+/* Main Content Scroll Enable */
+.content-scroll {
+  max-height: 75vh;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color:#cccccc7f #ffffff00;
+  /* background: #fff; */
+  padding: 16px 20px 5px 16px;
+  min-height: 100;
+}
+
+.scrollbar-style {
+  scrollbar-width: thin;
+  scrollbar-color:#cccccc44 #ffffff00;
+  
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+.align-center{
+  text-align: center;
+}
+
+table.scrollable-table tbody {
+  display:block;
+  max-height:150px;
+  overflow:auto;
+}
+
+table.scrollable-table thead,table.scrollable-table tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}

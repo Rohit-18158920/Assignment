@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './Label.base';\nexport * from './Label';","map":{"version":3,"sources":["components/Label/index.ts"],"names":[],"mappings":"AAAA,cAAc,cAAd;AAEA,cAAc,SAAd","sourcesContent":["export * from './Label.base';\nexport * from './Label.types';\nexport * from './Label';\n"],"sourceRoot":"../src/"},"metadata":{},"sourceType":"module"}

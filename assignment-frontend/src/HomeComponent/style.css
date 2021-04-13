@@ -1,0 +1,134 @@
+#testClass{
+  background-color: white;
+  box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+.row1{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+  .sidenav {
+      /* padding-left:10px; */
+      padding-top: 20px;
+      background-color: #0747a6;
+      height: 95vh
+    }
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  } 
+}
+.css-1tw9lwf {
+
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+
+}
+.css-7xjigh {
+
+width: 100%;
+-moz-box-align: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+-moz-box-pack: justify;
+justify-content: space-between;
+
+}
+.css-1hdo1ja {
+
+-moz-box-align: center;
+align-items: center;
+border: medium none;
+border-radius: 3px;
+box-sizing: border-box;
+color: inherit;
+cursor: pointer;
+display: flex;
+flex-shrink: 0;
+font-size: inherit;
+height: 40px;
+outline: currentcolor none medium;
+text-align: left;
+text-decoration: none;
+width: 100%;
+padding-left: 12px;
+padding-right: 12px;
+background-color: rgb(5, 54, 127);
+fill: rgb(5, 54, 127);
+margin-top:2px
+}
+.css-1hdo1ja1 {
+
+-moz-box-align: center;
+align-items: center;
+border: medium none;
+border-radius: 3px;
+box-sizing: border-box;
+color: inherit;
+cursor: pointer;
+display: flex;
+flex-shrink: 0;
+font-size: inherit;
+height: 70px;
+outline: currentcolor none medium;
+text-align: left;
+text-decoration: none;
+width: 100%;
+padding-left: 12px;
+padding-right: 12px;
+background-color: rgb(5, 54, 127);
+fill: rgb(5, 54, 127);
+margin-top:2px
+}
+.bgNavColor{
+background-color: #faf9f8;
+box-shadow : 0px 9px 6px -11px black
+}
+.bgColor{
+background-color: #faf9f8;
+}
+.userDisplay{
+margin-right: 20px;
+}
+
+.textColor{
+color:black
+}
+.textColor a:hover{
+color:black
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+.optionbck{
+  background-color: whitesmoke;
+}
+
+.error{
+  color: red;
+}
+/* .small_words{
+  font-size: small;
+} */
+
+#td ul, #td li {
+  margin: 0; padding: 0;
+  list-style: none;
+}
+.rohit-nowrap-1{
+  white-space: nowrap;
+}
+.tableHeadbgColor{
+  background-color: lightgray;
+}
+.navbar-toggler {
+padding: 0;
+}

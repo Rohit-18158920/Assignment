@@ -1,0 +1,26 @@
+{
+  "name": "aqfer-assignment",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.6.0",
+    "aws-sdk": "^2.884.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "path": "^0.12.7",
+    "dotenv": "^8.2.0",
+    "serverless-http": "^2.3.0",
+    "serverless-offline": "^5.12.1"
+  }
+}

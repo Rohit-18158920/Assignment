@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from '@uifabric/foundation';","map":{"version":3,"sources":["Foundation.ts"],"names":[],"mappings":"AAAA,cAAc,sBAAd","sourcesContent":["export * from '@uifabric/foundation';\n"],"sourceRoot":"../src/"},"metadata":{},"sourceType":"module"}

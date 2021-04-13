@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #0053ab;
+  --secondary-color: rgb(117, 108, 108);
+  --backgorud-color: rgb(250,249, 248);
+}
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--backgorud-color);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .dashboard-header {
+    background-color: var(--primary-color);
+    position: fixed;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 8;
+    padding-bottom: 8px;
+  }
+  .dashboard-header h2 {
+    margin: 0; 
+    padding: 0;
+  }
+  .dashboard-header span {
+    color: #fff;
+  }
+
+  /* Microsoft Fabric Box Depth */ 
+.card-depth-4 {
+  background-color: #fff;
+  padding: 8px 8px 12px 8px;
+  margin: 2% 0;
+  box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+}
+.card-depth-4 h4{
+  margin: 0px;
+  color: var(--primary-color);
+}
+
+.card-depth-8 {
+  background-color: #fff;
+  box-shadow: 0 3.2px 7.2px 0 rgba(0,0,0,.132),0 .6px 1.8px 0 rgba(0,0,0,.108);
+}
+  
+.align-center {
+  text-align: center;
+}
+
+.primary-backgroud-color {
+  background: var(--primary-color); 
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.font-primary-color {
+  color: var(--primary-color);
+}
+
+.font-secondary-color {
+  color: var(--secondary-color);
+}
+
+.font-discription {
+  color: rgb(117, 108, 108);
+  font-size: 10px;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.home-btn{
+  padding: 8px;
+  color: #000;
+  border-radius: 2px;
+  background-color: #e1e1e1;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+.home-btn i {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.home-btn:hover{
+  background-color: #ccc;
+}
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 7;
+  background-color: rgba(250,249, 248, 0.7);
+  text-align: center;
+  font-size: 1.5em;
+  color: var(--primary-color);
+}
+
+.breadcrumb-holder {
+ position: absolute;
+ background-color: #ece8e8;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ z-index: 8; 
+}
+
+.breadcrumb-holder-color span{
+  color: #000;
+}
+
+.breadcrumb-holder-link{
+  cursor: pointer;
+}
+
+.breadcrumb-holder-link:hover {
+  color: var(--primary-color);
+}
+
+.progressBar {
+  background-color: rgb(200, 198, 196);
+  width: 100%;
+  border-radius: 2px;
+  font-size: 12px;
+  /* border: 1px solid #000; */
+}
+
+.progressBar div {
+  border-radius: 2px;
+  color: white;
+  font-size: 10;
+  background-color: var(--primary-color);
+}
+
+.ms-Icon{
+  cursor: pointer;
+}  
+
+.error-txt-color {
+  color: rgb(164, 38, 44) !important
+}
+
+.slider-text {
+  color: var(--primary-color);
+}
